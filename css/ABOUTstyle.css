@@ -1,0 +1,27 @@
+.holder{
+display: flex;
+flex-direction: column;
+}
+.portrait{
+    width: 20vw;
+    height: auto;
+    margin-left: 20rem;
+    margin-top: 10rem;
+    clip-path: circle(50%);
+}
+.AboutMeText{
+    position: absolute;
+width: 45vw;
+height: 30vh;
+background-color: rgb(16, 16, 16);
+margin-left: calc(20rem + 30rem);
+margin-top: 22.5vh;
+border-radius: 5rem;
+text-align: center;
+}
+.AboutMeText p1{
+    font-size: large;
+    width: 35vw;
+}
+
+

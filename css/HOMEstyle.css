@@ -83,7 +83,7 @@ animation: scrollHorizontal 20s linear infinite;
 }
 @keyframes scrollHorizontal {
     0% { transform: translateX(0);}
-    100% { transform: translateX(-200%);}
+    100% { transform: translateX(-99%);}
 }
 
 .SeeMore{
@@ -124,6 +124,26 @@ animation: scrollHorizontal 20s linear infinite;
     display: flex;
     flex-direction: column;
 }
+h2{
+   
+    margin: 0 auto;
+    margin-top: 5%;
+    right: 50%;
+    font-size: xxx-large;
+    height: 5%;
+}
+.articleDesc{
+    display: flex;
+    flex-direction: column;
+
+}
+.articleDesc p2{
+    gap: 25rem ;
+    margin-top: 7.5rem;
+    margin-right: 5%;
+    width: 30rem;
+    z-index: 11;
+}
 .CardSurvivor{
 display: flex;
     flex-direction: row-reverse;
@@ -134,15 +154,17 @@ display: flex;
 
     border-radius: 7rem 2.5rem;
 }
+
 .CardSurvivor img{
  margin:  2.5%;
-    height: 75vh;
+    height: 50vh;
+    margin-top: 7.5rem;
     border: 3px solid;
     border-color: black;
     border-radius: 7rem 2.5rem;
 }
 .Technomania{
-    display: inline-block;
+    display: flex;
     background-color: rgb(16,16,16);
     width: 100vw;
     height: calc(75vh + 10vh);
@@ -152,7 +174,8 @@ display: flex;
 }
 .Technomania img{
     margin:  2.5%;
-    height: 75vh;
+    height: 50vh;
+    margin-top: 7.5rem;
     border: 3px solid;
     border-color: black;
     border-radius: 2.5rem 7rem;
@@ -170,8 +193,9 @@ display: flex;
 }
 .MapProject img{
     margin:  2.5%;
-    height: 75vh;
+    height: 50vh;
     border: 3px solid;
+    margin-top: 7.5rem;
     border-color: black;
     border-radius: 7rem 2.5rem;
 }
@@ -188,7 +212,8 @@ display: flex;
 }
 .Frightline img{
     margin:  2.5%;
-    height: 75vh;
+    height: 50vh;
+    margin-top: 7.5rem;
     border: 3px solid;
     border-color: black;
     border-radius: 2.5rem 7rem;
@@ -205,11 +230,13 @@ display: flex;
 }
 .CosmeticCustom img{
     margin:  2.5%;
-    height: 75vh;
+    height: 50vh;
+    margin-top: 7.5rem;
     border: 3px solid;
     border-color: black;
     border-radius: 7rem 2.5rem;
 }
+
 footer{
     position: absolute;
     height: 15%;
