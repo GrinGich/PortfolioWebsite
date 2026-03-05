@@ -7,6 +7,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
+    overflow-x: hidden ;
 }
 .navigation {
     position: sticky;
@@ -185,25 +186,109 @@ animation: scrollHorizontal 20s linear infinite;
 
 #ProjectPreview{
     width: 100%;
-    height: 100vh;
+    height: calc(calc(100vh * 5) - 40vh);
+    display: flex;
+    flex-direction: column;
+}
+.CardSurvivor{
+display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(16,16,16);
+    width: 100vw;
+    height: calc(75vh + 10vh);
+    margin-top: 2.5%;
+
+    border-radius: 7rem 2.5rem;
+}
+.CardSurvivor img{
+ margin:  2.5%;
+    height: 75vh;
+    border: 3px solid;
+    border-color: black;
+    border-radius: 7rem 2.5rem;
 }
 .Technomania{
     display: inline-block;
     background-color: rgb(16,16,16);
-    width: 100%;
+    width: 100vw;
     height: calc(75vh + 10vh);
     margin-top: 2.5%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
     
     border-radius: 2.5rem 7rem;
-
 }
 .Technomania img{
-    margin:  2.5%;
     margin:  2.5%;
     height: 75vh;
     border: 3px solid;
     border-color: black;
+    border-radius: 2.5rem 7rem;
+}
+.MapProject{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(16,16,16);
+    width: 100vw;
+    height: calc(75vh + 10vh);
+    margin-top: 2.5%;
+
     
+    border-radius: 7rem 2.5rem;
+}
+.MapProject img{
+    margin:  2.5%;
+    height: 75vh;
+    border: 3px solid;
+    border-color: black;
+    border-radius: 7rem 2.5rem;
+}
+.Frightline{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(16,16,16);
+    width: 100vw;
+    height: calc(75vh + 10vh);
+    margin-top: 2.5%;
+
+    
+    border-radius: 2.5rem 7rem;
+}
+.Frightline img{
+    margin:  2.5%;
+    height: 75vh;
+    border: 3px solid;
+    border-color: black;
+    border-radius: 2.5rem 7rem;
+}
+.CosmeticCustom{
+display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(16,16,16);
+    width: 100vw;
+    height: calc(75vh + 10vh);
+    margin-top: 2.5%;
+    
+    border-radius: 7rem 2.5rem;
+}
+.CosmeticCustom img{
+    margin:  2.5%;
+    height: 75vh;
+    border: 3px solid;
+    border-color: black;
+    border-radius: 7rem 2.5rem;
+}
+footer{
+    position: absolute;
+    height: 15%;
+    width: 100%;
+    background-color: rgb(0,0,120);
+    text-align: center;
+}
+footer a{
+     
+}
+footer h1{
+ 
+}
+footer p1{
+
 }
