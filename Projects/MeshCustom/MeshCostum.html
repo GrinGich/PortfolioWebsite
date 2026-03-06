@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmetic Customizer</title>
+    <link rel="stylesheet" href="../../css/GLOBAlstyle.css">
+    <link rel="stylesheet" href="../../css/MeshCustom.css">
+</head>
+<body>
+    <nav class="navigation">
+            <div class="nav-left">
+                <h1>Felix Groves</h1>
+            </div>
+            <div class="nav-right">
+                <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../projectsPage.html">Projects</a></li>
+                <li><a href="../../aboutme.html">About</a></li>
+                <button class="contact" popovertarget="contactPopup">Contact</button>
+            </ul>
+            </div>
+            <div id="contactPopup" popover>
+                <div class="innerBorder">
+                    <h2 id="ContactInfo"><strong>Contact Information</strong></h2>
+                    <p><a href="mailto:FelixGroves6@gmail.com"><strong>Email:</strong> FelixGroves6@gmail.com</a></p>
+                    <p><a href="tel:+46-70-482-71-45"><strong>Phone:</strong> 70-482 71 45</a></p>
+                </div>
+            </div>
+        </nav>
+
+        <div class="root">
+            <h id="title">Specialization: <br> Cosmetic customizer</h>
+                <div class="overview">
+                    <div class="specs">
+                            <p>
+                                Genre: Tool <br><br>
+                                Engine: Unreal Engine 5 <br><br>
+                                Editor: Angelscript <br><br>
+                                Platform: PC  <br><br>
+                                Time: 4 weeks <br>
+                            </p>
+                    </div>
+                    <div class="Summary"> <br>
+                        This project is aimed at making it easier to customize already existing cosmetics for purpose of creating variants of the same mesh. <br>
+                        <br>
+                        Credit to <a href="https://www.artstation.com/pckaffe">Christopher Lundkvist</a> for the scene background. 
+                    </div>
+                </div>
+                <div class="text1"> 
+                    <p>
+                        The tool uses a recursive material to load patterns onto a material thus stacking patterns without the use of decals. The purpose of this tool was to independantly of any project; be able to load in any mesh and/or cosmetic and apply colour,patterns and emblems to the mesh and then exporting directly to the computer. 
+                        <br>
+                        Angelscript was chosen to create the widgets for the tool because of its ease of code implementation and as a bit of a challenge to myself.
+                    </p>
+                </div>
+                <div class="video1">
+                    <video src="../../Videos/PatternMovementShowcase.mp4" autoplay="on" loop muted></video>
+                    <p>The "Combine" material where the previously rendered result/base texture and the pattern is combined, takes in multiple inputs that can move,rotate,scale and colour the pattern</p>
+                </div>
+                <div class="picture1">
+                    <p>The widgets were mostly made with Angelscript code. Dropdowns,Sliders, input from text boxes were all implemented using Angelscript. Thanks to its simplied scripting and script hotreload
+                        <br>
+                        <br>
+                        The widgets consist of two main ones, the pattern windows where the settings for the pattern is changed and the main mesh/export window where the user can change the Texture, ORM and Normals.
+                        <br>
+                        <br>
+                        Upon the need for export, the program prompts you to choose a save folder and then save without the inputted normals or orm. This is to keep the existing infrastructure consistant and the outputted texture can easily replace the inputted texture.
+                    </p>
+                    <img src="../../Images/CustomizerWidgetsPreview.png">
+                </div>
+        </div>
+</body>
+</html>
