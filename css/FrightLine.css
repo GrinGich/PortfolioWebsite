@@ -48,33 +48,3 @@
     .Summary a{
         text-decoration: underline;
     }
-.text1{
-        
-        text-align: left;
-        padding-left: 10%;
-        padding-right: 10%;
-        margin: 0 auto;
-        background-color: rgb(26);
-        font-size: 1vw;
-        color: white;
-}
-.video1{
-    display: flex;
-    flex-direction: row;
-}
-.video1 video{
-width: 40rem;
-}
-.video1 p{
-    font-size: 1.5vw;
-    align-self: center;
-}
-.picture1{
-    width: auto;
-    display: flex;
-    flex-direction: row;
-}
-.picture1 p{
-    font-size: 1.2vw;
-    align-self: center;
-}

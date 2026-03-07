@@ -273,7 +273,7 @@ footer h1{
     transition: 0.2s ease-out;
 }
 .back2top:hover{
-    background-color: #1d1abe;
+    background-color: rgb(28, 26, 188);
 }
 .back2top:hover span{
     transform: translateY((1rem));
