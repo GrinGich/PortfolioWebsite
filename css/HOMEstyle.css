@@ -16,11 +16,10 @@ section{
     position: absolute;
     top: 40%;
     left: 25%;
-    padding-top: 4rem;
     transform: translate(-50%,-50%);
     z-index: 10;
-    width: 40%;
-    height: 20%;
+    width: 40vw;
+    height: auto;
     text-align: center;
     color: white;
     pointer-events: none;
@@ -30,14 +29,14 @@ section{
     
 }
 .titleName p1{
-font-size: 48px;
+font-size: 4vw;
     word-spacing: -7px;
     font-weight: 300;
     text-wrap: nowrap;
 
 }
 .titleName p4{
-    font-size: 32px;
+    font-size: 2vw;
     word-spacing: -7px;
     font-weight: 300;
     text-wrap: nowrap;
@@ -119,11 +118,71 @@ animation: scrollHorizontal 20s linear infinite;
 
 
 #ProjectPreview{
-    width: 100%;
-    height: calc(calc(100vh * 5) - 40vh);
-    display: flex;
-    flex-direction: column;
+    width: auto;
+    height: auto;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    row-gap: 2rem;
+    column-gap: 2rem;
 }
+    .projectView{
+        width: auto;
+    height: 60vh;
+    background-color: rgb(94, 94, 94,0.5);
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    border-radius: 1rem;
+
+    }
+        .ProjectText{
+            display: flex;
+            flex-direction: column;
+        }
+            .projectTitle{
+                font-size: 2vw;
+            }
+            .projectSubject{
+                font-size: 1.3vw;
+            }
+
+        .ProjectIMGs{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .ProjectIMGs img{
+            width: 20vw;
+            height: auto;
+            border-radius: 1rem;
+        }
+            .projectSoftware{
+                display: flex;
+            }
+            .projectSoftware img{
+                width: 10vw;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 h2{
    
     margin: 0 auto;
@@ -143,141 +202,8 @@ h2{
     width: 45rem;
     z-index: 11;
 }
-.CardSurvivor{
-display: flex;
-    flex-direction: row-reverse;
-    background-color: rgb(16,16,16);
-    width: 100vw;
-    height: calc(75vh + 10vh);
-    margin-top: 2.5%;
 
-    border-radius: 7rem 2.5rem;
-}
 
-.CardSurvivor img{
- margin:  2.5%;
-    height: 50vh;
-    margin-top: 7.5rem;
-    border: 3px solid;
-    border-color: black;
-    border-radius: 7rem 2.5rem;
-}
-.Technomania{
-    display: flex;
-    background-color: rgb(16,16,16);
-    width: 100vw;
-    height: calc(75vh + 10vh);
-    margin-top: 2.5%;
-    
-    border-radius: 2.5rem 7rem;
-}
-.Technomania img{
-    margin:  2.5%;
-    height: 50vh;
-    margin-top: 7.5rem;
-    border: 3px solid;
-    border-color: black;
-    border-radius: 2.5rem 7rem;
-}
-.MapProject{
-    display: flex;
-    flex-direction: row-reverse;
-    background-color: rgb(16,16,16);
-    width: 100vw;
-    height: calc(75vh + 10vh);
-    margin-top: 2.5%;
-
-    
-    border-radius: 7rem 2.5rem;
-}
-.MapProject img{
-    margin:  2.5%;
-    height: 50vh;
-    border: 3px solid;
-    margin-top: 7.5rem;
-    border-color: black;
-    border-radius: 7rem 2.5rem;
-}
-.Frightline{
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(16,16,16);
-    width: 100vw;
-    height: calc(75vh + 10vh);
-    margin-top: 2.5%;
-
-    
-    border-radius: 2.5rem 7rem;
-}
-.Frightline img{
-    margin:  2.5%;
-    height: 50vh;
-    margin-top: 7.5rem;
-    border: 3px solid;
-    border-color: black;
-    border-radius: 2.5rem 7rem;
-}
-.CosmeticCustom{
-display: flex;
-    flex-direction: row-reverse;
-    background-color: rgb(16,16,16);
-    width: 100vw;
-    height: calc(75vh + 10vh);
-    margin-top: 2.5%;
-    
-    border-radius: 7rem 2.5rem;
-}
-.CosmeticCustom img{
-    margin:  2.5%;
-    height: 50vh;
-    margin-top: 7.5rem;
-    border: 3px solid;
-    border-color: black;
-    border-radius: 7rem 2.5rem;
-}
-
-footer{
-    position: absolute;
-    height: 15%;
-    width: 100%;
-    background-color: rgb(26, 26, 61);
-    text-align: center;
-}
-footer h1{
-    margin-top: 2.5%;
-    font-size: large;
-}
-
-.Linkedin img{
-   height: 4vh;
-    position:absolute;
-    left: 10%;
-    top: 45%;
-}
-.back2top{
-    position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #1417dc;
-    border-radius: 0.5rem;
-    padding: 0.5rem;
-    text-decoration: none;
-    transition: 0.2s ease-out;
-}
-.back2top span{
-    color: white;
-    font-size: 2rem;
-    transition: 0.2s ease-out;
-}
-.back2top:hover{
-    background-color: rgb(28, 26, 188);
-}
-.back2top:hover span{
-    transform: translateY((1rem));
-}
 
 
 
