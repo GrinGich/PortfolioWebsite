@@ -63,7 +63,7 @@ a{
     color: white;
 }
 .contact{
-    background: rgb(28, 26, 188);
+    background:royalblue;
     color: white;
     padding: 15px;
     border-radius: 20px;
@@ -118,7 +118,7 @@ footer h1{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: #1417dc;
+    background-color: royalblue;
     border-radius: 0.5rem;
     padding: 0.5rem;
     text-decoration: none;
@@ -130,7 +130,7 @@ footer h1{
     transition: 0.2s ease-out;
 }
 .back2top:hover{
-    background-color: rgb(28, 26, 188);
+    background-color: royalblue;
 }
 .back2top:hover span{
     transform: translateY((1rem));
