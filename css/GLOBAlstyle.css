@@ -25,6 +25,9 @@ body{
     gap: 1.5rem;
     align-items: center;
 }
+.nav-left img{
+    
+}
 .nav-right {
     display: flex;
     gap: 1.5rem;
@@ -106,8 +109,12 @@ footer h1{
 }
 
 .Linkedin img{
-   height: 4vh;
-    position:absolute;
+    height: 4vh;
+    left: 10%;
+    top: 45%;
+}
+.Github img{
+    height: 4vh;
     left: 10%;
     top: 45%;
 }
