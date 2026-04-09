@@ -45,7 +45,7 @@
             </div>
         </nav>
         <div class="root">
-            <h id="title">Personal Project:  <br> Map Creator <br> / <br> Recreation of Hearts of Iron IV</h>
+            <h id="title">Personal Project:  <br> Map Partition <br> / <br> Recreation of Hearts of Iron IV</h>
             <div class="overview">
                                     <div class="specs">
                             <p>
@@ -68,33 +68,33 @@
                     I then you give out the a colour id to every shape. Using rgb i can get around 16 million different combinations before I run out.
                     The colour of a province act as a kind of key which can be used to get information about the "province" or tile. 
                     Such as an owner country or if the unit is allowed to pathfind there.
+                    <br>
+                    <br>
+                    <u>Inspired</u> by <strong>Paradox Interactive'</strong> Hearts of Iron IV way of doing map "Provinces".
                 </p>
             </div>
 
             <div class="video1">
 
                 <video src="../../Videos/Looping MultiplePathfinding.mp4" autoplay looping muted></video>
-                <p>
-                    Every tile has various types of information about themselves and other tiles around them, such as their neighbours.
-                    This easily allows pathfidning on the tiles. 
-                    <br> <br>
-                    Later iterations of the tool add a centroid of the tile using the average of the tiles border to establish where the closest thing to a center is.
-                    <br> <br>
-                    If the player would wish to set the target for pathfinding then a ray is cast from the screen space to the map and gets the colour of the pixel that was clicked, and using the colour key it is possible to get the node attached.
-                    <br> <br>
-                    This system is expandable, making it possible to have tiles within tiles depending on how close the camera is to the map. Because a colour is a key, one can set it so that if the camera is far away enough all the child tiles take on the colour of the tile. 
-                    This makes it possible to have layers of related.
-                    One such use case could be planets that are able to be "orbited" and then clicked in on to move on the surface.
-
-                </p>
+                <ul class = bulletPoints>
+                        <li><u>Information</u> is limited to "provinces", all they need is the colour of their neighbours and with that value alone all information needed is accessible.</li>
+                        <br><br>
+                        <li><u>Raycast</u> on mouse click and the get the returned colour to access "province" information. The entire map is one flat plane but the raycast returns a pixel colour which can be used to select a "province". </li>
+                        <br><br>
+                        <li><u>Pathfind</u> with ease on the centroids texture coordinates that correctly cooresponds to world coordinates.</li>
+                    </ul>
 
             </div>
             <div class="picture1">
-                <p>
-                    Instead of having a bunch of colours displayed to the player. I made it so that tiles can have a display colour only visible to the player. This can for example create countrie, like in the picture where i crudely recreated Hearts of Iron IV.
-                    <br> <br> 
-                    Tiles can even be owned by "countries" so if a unit from france would take all the provinces from italy then all tiles owned by italy would convert to being blue, the colour of france.
-                </p>
+               <ul class = bulletPoints>
+                        <li><u>Layered</u> projected on top of the colour map to display "countries". With countries being colours that can <strong>OWN</strong> other colours/provinces. </li>
+                        <br><br>
+                        <li><u>Conquer</u> using your countrys troops, walk over enemy territory to Conquer their land. Take their capital to get them to capitulate.</li>
+                        <br><br>
+                        <li><u>Expandable</u> map content, since the colour is the key then if you change what colour you see you also change what you access.  
+                        Think Counties->Region->Countries </li>
+                    </ul>
                 <img src="../../Images/MapCreatorCountryMap.png">
             </div>
 

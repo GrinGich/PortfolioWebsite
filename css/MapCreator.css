@@ -8,7 +8,21 @@
      flex-direction: column;  
      align-items     : center; 
      text-align      : center; 
-     padding-top: 20vh;
+     padding-top: 5vh;
+}
+.root u {
+color: deepskyblue;
+text-decoration: none;
+font-weight: 900;
+}
+.root ul {
+align-self: center;
+text-align: left;
+padding: 0;
+}
+.root li {
+font-size: 1vw;
+margin-bottom: 5vh;
 }
 #title{
     font-size: 4vw;
