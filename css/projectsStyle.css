@@ -1,19 +1,22 @@
 .ProjectHolder{
     width : 60vw;
-    height: 100vh;
+    height: auto;
     background-color: rgb(46, 46, 46);
     margin: 0 auto;
 
     display:grid;
     grid-template-columns: repeat(2, 1fr);
+    row-gap: 2vw;
     align-items: center;
     justify-items: center;
 
     border-radius: 20px;
+
+    ;
 }
 .ProjectHolder div{
     width: 15vw;
-    height: 30vh;
+    height: auto;
     background-color: rgb(94, 94, 94,0.5);
     display: inline-block;
     margin: 0 auto;
@@ -24,7 +27,7 @@
     border-radius: 1rem;
 }
 .ProjectHolder h{
-    font-size: x-large;
+    font-size: 2vw;
 }
 .ProjectHolder img{
     width: 13vw;
