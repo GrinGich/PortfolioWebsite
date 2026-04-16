@@ -19,12 +19,34 @@ background-color: rgb(16, 16, 16);
 margin-left: calc(20rem + 30rem);
 margin-top: 22.5vh;
 padding-bottom: 2rem;
+padding-left: 1rem;
+padding-right: 1rem;
 border-radius: 5rem;
 text-align: center;
+}
+.AboutMeText2{
+width: 45vw;
+height: auto;
+background-color: rgb(16, 16, 16);
+
+padding-bottom: 2rem;
+padding-left: 1rem;
+padding-right: 1rem;
+border-radius: 5rem;
+text-align: center;
+
+margin-top: 5rem;
+margin-left: 7.5rem;
 }
 .AboutMeText p1{
     font-size: 1vw;
     width: 35vw;
 }
+.PixelArtHolder{
+    display: flex;
+}
 
-
+.pixelart{
+    width: 5vw;
+    height: auto;
+}
