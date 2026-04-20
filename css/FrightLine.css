@@ -24,8 +24,8 @@ z-index: -1;
     position: absolute;
     top: 50rem;
 }
-a {
-    text-decoration: underline;
+.root a {
+    text-decoration: none;
 }
 .overview{
     background-color: rgb(46, 46, 46);
