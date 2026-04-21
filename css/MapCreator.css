@@ -99,3 +99,15 @@ margin-bottom: 5vh;
     .video1 video{
         width: 40rem;
     }
+    .hoiRecreation{
+            display: flex;
+            flex-direction: row;
+
+        width: auto;
+    }
+    .hoiRecreation ul{
+        
+    }
+    #division{
+        
+    }
